@@ -10,6 +10,7 @@ need ways to normalose gyroscope values [-1 , 1] from [-20 , 20]
   1.set range to [-1,1]
   2.set range to [0,1]
   3.use standard scalar from sk learn on individual ax , ay , az , gx , gy , gz columns
+  for now we are using linear scaling x = (x - minVal) / (maxVal-minVal) range[0,1]
 
 (todo)need to check duration for each gesture:
   number of samples = (baud rate / bits per sample) * duration of gesture
