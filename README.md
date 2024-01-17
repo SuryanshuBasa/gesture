@@ -14,3 +14,5 @@ need ways to normalose gyroscope values [-1 , 1] from [-20 , 20]
 
 (todo)need to check duration for each gesture:
   number of samples = (baud rate / bits per sample) * duration of gesture
+
+find better ways fir activation of gesture 
