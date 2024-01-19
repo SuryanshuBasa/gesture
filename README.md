@@ -25,3 +25,16 @@ forward fall
 left fall
 up clockwise
 up anti clockwise
+
+
+
+
+TO TRY AND IMPLEMENT:
+add a denoising factor to smooth out acceleration
+call a calibrate function from setup:
+  this take 10 samples of ax ay az values finds the avg of 10 acc samples
+      totx = totx + ax
+      samplex = totx/10
+      similar to y and z
+use this value to remove the noise element from the actual reading values
+      
